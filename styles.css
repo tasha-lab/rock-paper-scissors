@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+body{
+    font-size: 1.5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+:root{
+    --primary-light-shade-of-purple: #c8b6ff;
+   --Dark-shade-of-pink : #e7c6ff;
+   --Light-shade-of-pink :#ffd6ff;
+   --secondary-game-font-font-family: "WDXL Lubrifont TC", sans-serif;
+   --primary-game-font-font-family:"Press Start 2P", system-ui;
+
+}
+.gamebackgrnd-section{
+    /* background-color: #c8b6ff; */
+
+    width:70rem;
+    height:100vh;
+    border:2px solid red;
+    position: relative;  
+    
+}
+.header-section{
+    width:100%;
+    background-color: var(--Dark-shade-of-pink);
+    position: relative;
+}
+
+.game-header{
+    display:flex;
+    border:2px solid green;
+    justify-content: space-between;
+}
+.copyright{
+    padding:1rem 0 1rem 1rem;
+}
+p{
+    font-family: var(--secondary-game-font-font-family);
+    font-size: 2rem;
+}
+p i{
+    padding-right:2rem
+}
+
+.scores{
+    display:flex;
+    padding:1rem 3rem 1rem 1rem;
+    gap:4rem
+}
+@media screen and (max-width:305px) {
+    .game-header{
+        width:100%;
+    }
+    .header-section{
+        display:flex;
+        font-size: .8rem;
+    }
+    .copyright{
+        display:flex;
+        flex-direction: column;
+    }
+    .scores{
+        display: flex;
+        flex-direction: column;
+        font-size: .5rem;
+        gap:1rem
+    }
+}
