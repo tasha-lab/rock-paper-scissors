@@ -82,8 +82,8 @@ span {
   .scores {
     display: flex;
     flex-direction: column;
-    font-size: 0.5rem;
-    gap: 1rem;
+    font-size: 0.4rem;
+    gap: .8rem;
   }
 }
 
