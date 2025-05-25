@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=WDXL+Lubrifont+TC&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="./image/logo.jpg" />
     <title>Lets Play</title>
   </head>
 
@@ -28,34 +29,34 @@
           <div class="copyright">
             <p><i class="fa-solid fa-copyright"></i>2025 T</p>
           </div>
-          <div class="scores">
-            <p>computer <span>0</span> :</p>
-            <p><span>0</span> Player</p>
+          <div class="scores" id="score">
+            <p>computer <span id="zerocomp">0</span> :</p>
+            <p><span id="zeroply">0</span> Player</p>
           </div>
         </div>
       </div>
       <!-- computer section-->
       <div class="computer-section">
         <p>computer</p>
-        <div class="icon-rock">🤜</div>
+        <div class="icon-rock" id="icon-computer">🤜</div>
       </div>
 
       <!-- stats -->
       <div class="stats-section">
-        <p>player wins</p>
+        <p id="stats">Let's Play!!</p>
       </div>
 
       <!-- player section-->
       <div class="player-section">
         <p>Player</p>
-        <div class="icon-rock">🤜</div>
+        <div class="icon-rock" id="icon-rock">🖐️</div>
       </div>
       <!-- footer section -->
       <div class="footer">
         <div class="the-icons">
-          <div class="icon1">🤜</div>
-          <div class="icon1">🖐️</div>
-          <div class="icon1">✌️</div>
+          <button class="icon1" id="rock">🤜</button>
+          <button class="icon1" id="paper">🖐️</button>
+          <button class="icon1" id="scissors">✌️</button>
         </div>
       </div>
     </div>
