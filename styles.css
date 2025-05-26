@@ -31,6 +31,7 @@ body {
   /* border:2px solid red; */
   position: relative;
   padding: 0;
+  background-color: var(--Light-shade-of-pink);
 }
 
 /* header styling */
